@@ -4,7 +4,7 @@ from datetime import datetime
 from datetime import datetime, timedelta
 
 # Pour modifier le délai, changer la valeur de time_to_wait (minutes)
-time_to_wait = .1
+time_to_wait = 10
 client = redis.Redis(host="localhost", port=6379)
 argv = sys.argv
 
